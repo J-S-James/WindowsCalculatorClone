@@ -53,7 +53,7 @@ namespace WindowsCalculatorClone.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WindowsCalculatorClone;V1.0.0.0;component/views/scientificcalcview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WindowsCalculatorClone;component/views/scientificcalcview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ScientificCalcView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -47,32 +47,32 @@
                             <Label Content="Calculator"/>
                             <Button Content="Standard" Command="{Binding NavigateStandardCalcCommand}"/>
                             <Button Content="Scientific" Command="{Binding NavigateScientificCalcCommand}"/>
-                            <Button Content="Graphing"/>
-                            <Button Content="Programmer"/>
-                            <Button Content="Date calculation"/>
+                            <Button Content="Graphing" IsEnabled="False"/>
+                            <Button Content="Programmer" IsEnabled="False"/>
+                            <Button Content="Date calculation" IsEnabled="False"/>
                         </StackPanel>
 
                         <StackPanel Orientation="Vertical" Margin="2">
-                            <Label Content="Converter"/>
-                            <Button Content="Currency"/>
-                            <Button Content="Volume"/>
-                            <Button Content="Length"/>
-                            <Button Content="Weight and mass"/>
-                            <Button Content="Temperature"/>
-                            <Button Content="Energy"/>
-                            <Button Content="Area"/>
-                            <Button Content="Speed"/>
-                            <Button Content="Time"/>
-                            <Button Content="Power"/>
-                            <Button Content="Data"/>
-                            <Button Content="Pressure"/>
-                            <Button Content="Angle"/>
+                            <Label Content="Converter" IsEnabled="False"/>
+                            <Button Content="Currency" IsEnabled="False"/>
+                            <Button Content="Volume" IsEnabled="False"/>
+                            <Button Content="Length" IsEnabled="False"/>
+                            <Button Content="Weight and mass" IsEnabled="False"/>
+                            <Button Content="Temperature" IsEnabled="False"/>
+                            <Button Content="Energy" IsEnabled="False"/>
+                            <Button Content="Area" IsEnabled="False"/>
+                            <Button Content="Speed" IsEnabled="False"/>
+                            <Button Content="Time" IsEnabled="False"/>
+                            <Button Content="Power" IsEnabled="False"/>
+                            <Button Content="Data" IsEnabled="False"/>
+                            <Button Content="Pressure" IsEnabled="False"/>
+                            <Button Content="Angle" IsEnabled="False"/>
                         </StackPanel>
                     </StackPanel>
                 </ScrollViewer>
 
                 <Grid Grid.Row="2" Margin="0,10,0,0">
-                    <Button Content="Settings" VerticalAlignment="Center" Margin="2"/>
+                    <Button Content="Settings" VerticalAlignment="Center" Margin="2" IsEnabled="False"/>
                 </Grid>
 
             </Grid>

@@ -1,10 +1,10 @@
 ﻿namespace WindowsCalculatorClone.Models;
 
-public class Expression
+public class Operator
 {
     public string Value { get; set; }
 
-    public Expression(string s)
+    public Operator(string s)
     {
         Value = s;
     }
