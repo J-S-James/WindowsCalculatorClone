@@ -6,8 +6,8 @@ public class StandardCalcViewModel : CalcBaseViewModel
 {
     private IMemoryDataService _memoryDataService;
     private IHistoryDataService _historyDataService;
-    public StandardCalcViewModel(IMemoryDataService memoryDataService) 
+     public StandardCalcViewModel() 
     {
-        _memoryDataService = memoryDataService;
+        
     }
 }
