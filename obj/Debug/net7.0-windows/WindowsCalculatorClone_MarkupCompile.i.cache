@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 E:\Projects\WindowsCalculatorClone\WindowsCalculatorClone\App.xaml
 61922023793
 
-29-1185737223
-2231803115095
+27-534829404
+223-1716620485
 MainWindow.xaml;Views\HistoryView.xaml;Views\MemoryView.xaml;Views\NavigationDrawerView.xaml;Views\ScientificCalcView.xaml;Views\StandardCalcView.xaml;
 
-False
+True
 
